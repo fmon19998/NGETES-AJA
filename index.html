@@ -1241,7 +1241,7 @@ to{transform:scale(1);opacity:1}
         };
 
         // Inisialisasi Socket
-        window.socket = io('http://localhost:3000');   // Nanti ganti ke domain backend kamu
+        window.socket = io('https://abc123.ngrok.io');
         window.visitorId = 'Visitor-' + Date.now();
 
         window.socket.emit('customer-join', { id: window.visitorId, name: 'Pelanggan IMBA' });
